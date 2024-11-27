@@ -7,7 +7,7 @@ import tester
 
 # Folder path to monitor
 FOLDER_PATH = r"/path/to/json/folder"
-LOG_FILE = "haproxy-agent.log"
+LOG_FILE = "/var/log/haproxy-agent.log"
 CHECK_INTERVAL = 8  # seconds between checks
 LOG_ROTATION_DAYS = 30
 MAX_LOG_SIZE = 2 * 1024 * 1024 * 1024  # 2GB in bytes 
